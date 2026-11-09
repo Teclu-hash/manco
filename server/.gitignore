@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# Environment and local database configuration
+.env
+.env.*
+!.env.example
+config/config.json
+
+# Logs and runtime files
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# Coverage / generated output
+coverage/
+tmp/
+temp/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
